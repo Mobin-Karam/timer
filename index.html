@@ -11,12 +11,29 @@
       content="default-src 'self'; script-src 'self'"
     />
     <title>Timer</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
   </head>
   <body>
     <div class="container">
-      <div class="container_timer_box"></div>
+      <div class="container_timer_box">
+        <div class="input-box">
+          <button class="increment">+</button>
+          <input
+            type="text"
+            name="number"
+            id="number"
+            value="00"
+            minlength="1"
+            maxlength="2"
+          />
+          <button class="decrement">-</button>
+        </div>
+        <button class="start">Start</button>
+        <div class="box-sec"></div>
+      </div>
     </div>
     <p id="info"></p>
   </body>
   <script src="./renderer.js"></script>
+  <script src="./timer.js"></script>
 </html>
