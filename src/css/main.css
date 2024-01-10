@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+#info {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: #303030;
+}
+.container_timer_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+.container_timer_box .input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.container_timer_box .input-box button {
+  width: 100px;
+  border: none;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+  background-color: #404040;
+  margin: 0;
+  padding: 10px;
+  font-size: 32px;
+  cursor: pointer;
+  -webkit-border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  -ms-border-radius: 20px 20px 0px 0px;
+  -o-border-radius: 20px 20px 0px 0px;
+}
+.container_timer_box .input-box button:nth-child(3) {
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
+}
+.container_timer_box .input-box input {
+  width: 100px;
+  font-size: 81px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: #404040;
+  margin-left: 16px;
+  margin-right: 16px;
+}/*# sourceMappingURL=main.css.map */

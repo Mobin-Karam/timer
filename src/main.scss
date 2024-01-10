@@ -1,0 +1,73 @@
+$element-bgc: #404040;
+$primary-bgc: #303030;
+
+* {
+  box-sizing: border-box;
+}
+
+#info {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: $primary-bgc;
+
+  &_timer_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+
+    .input-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column nowrap;
+
+      button {
+        width: 100px;
+        border: none;
+        border-radius: 20px 20px 0px 0px;
+        color: white;
+        background-color: $element-bgc;
+        margin: 0;
+        padding: 10px;
+        font-size: 32px;
+        cursor: pointer;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+      }
+
+      button:nth-child(3) {
+        border-radius: 0px 0px 20px 20px;
+        -webkit-border-radius: 0px 0px 20px 20px;
+        -moz-border-radius: 0px 0px 20px 20px;
+        -ms-border-radius: 0px 0px 20px 20px;
+        -o-border-radius: 0px 0px 20px 20px;
+      }
+
+      input {
+        width: 100px;
+        font-size: 81px;
+        text-align: center;
+        border: 1px solid white;
+        background-color: $element-bgc;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+  }
+}
