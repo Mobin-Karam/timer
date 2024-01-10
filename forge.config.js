@@ -7,6 +7,8 @@ module.exports = {
     {
       name: "@electron-forge/maker-squirrel",
       config: {
+        appDirectory: "./out/timer-win-x64",
+        outputDirectory: "./out/make/win",
         certificateFile: "./cert.pfx",
         certificatePassword: process.env.CERTIFICATE_PASSWORD,
       },
