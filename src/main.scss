@@ -29,6 +29,13 @@ body {
     justify-content: center;
     flex-flow: row nowrap;
 
+    .box-sec {
+        width: 100px;
+        height: 100px;
+        font-size: 48px;
+        margin: 20px;
+    }
+
     .input-box {
       display: flex;
       align-items: center;
